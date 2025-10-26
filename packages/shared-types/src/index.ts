@@ -1,0 +1,21 @@
+export enum UserRole {
+  CLIENT = 'CLIENT',
+  PROVIDER = 'PROVIDER',
+  ADMIN = 'ADMIN',
+}
+
+export enum ListingStatus {
+  PENDING = 'PENDING',
+  APPROVED = 'APPROVED',
+  REJECTED = 'REJECTED',
+  PAUSED = 'PAUSED',
+}
+
+export enum OrderStatus {
+  PENDING_PAYMENT = 'PENDING_PAYMENT',
+  IN_PROGRESS = 'IN_PROGRESS',
+  DELIVERED = 'DELIVERED',
+  COMPLETED = 'COMPLETED',
+  CANCELLED = 'CANCELLED',
+  DISPUTED = 'DISPUTED',
+}
